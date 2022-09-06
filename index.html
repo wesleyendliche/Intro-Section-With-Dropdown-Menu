@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css"">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -12,28 +14,29 @@
 </head>
 <body>
   <header>
-    <img src="./images/logo.svg" alt="Logo">
+    <img id="logo" src="./images/logo.svg" alt="Logo">
     <nav class="links">
-      <li>Features<span><img src="./images/icon-arrow-down.svg" alt="down"></span></li>
-        <ul class="feature-links">
+      <a href="#">
+        <li>Features<span><img src="./images/icon-arrow-down.svg" alt="down"></span></li><!-- <ul class="feature-links">
           <li><span class="icons-list"><img src="./images/icon-todo.svg" alt="todo icon"></span>Todo List</li>
           <li><span class="icons-list"><img src="./images/icon-calendar.svg" alt="calendar"></span>Calendar</li>
           <li><span class="icons-list"><img src="./images/icon-reminders.svg" alt="reminders"></span>Reminders</li>
           <li><span class="icons-list"><img src="./images/icon-planning.svg" alt="planning"></span>Planning</li>
-        </ul>
-      <li>Company<span><img src="./images/icon-arrow-down.svg" alt="down"></span></li>
-        <ul class="company-links">
+        </ul> -->
+      </a> 
+      <a href="#">
+        <li>Company<span><img src="./images/icon-arrow-down.svg" alt="down"></span></li>
+        <!-- <ul class="company-links">
           <li>History</li>
           <li>Our Team</li>
           <li>Blog</li>
-        </ul>
-      <li>Careers</li>
-      <li>About</li>
-    </nav>
-    <div class="login">
+        </ul> -->
+      </a>
+      <a href="#"><li>Careers</li></a>
+      <a href="#"><li>About</li></a>
       <button id="login">Login</button>
       <button id="register">Register</button>
-    </div>
+    </nav>
   </header>
 
   <main>
